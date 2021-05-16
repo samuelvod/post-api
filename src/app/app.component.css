@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+body{margin-top:20px;}
+
+.card {
+  min-width: 0;
+  margin: 20px 10px;
+  padding: 0;
+  margin-bottom: 30px;
+
+}
+
+.card .card-img-container .card-img {
+  background-size: cover;
+  background-position: top center;
+  display: block;
+  height: 175px;
+}
+
+
+.card .card-content {
+  padding: 20px 20px 40px;
+  text-align: center;
+}
+
+.card .card-meta {
+  font-size: 12px;
+}
+
+.card .meta-box {
+  margin-right: 20px;
+}
+
+.card .card-content h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card h2 a {
+  color: #D0D0D0;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+.card:hover h2 a {
+  color: #FFF;
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
